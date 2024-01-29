@@ -32,9 +32,11 @@ public class LangChainConfiguration {
 
     @Value("${langchain.api.key}")
     private String apiKey;
-    private final List<Document> documents;
+
     @Value("${langchain.timeout}")
     private Long timeout;
+
+    private final List<Document> documents;
 
     @Bean
     public ConversationalRetrievalChain chain() {

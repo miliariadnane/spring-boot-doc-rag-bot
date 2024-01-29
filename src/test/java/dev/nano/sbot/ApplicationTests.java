@@ -16,8 +16,8 @@ class ApplicationTests {
     @Test
     void testQuestions() {
         List<String> questions = List.of(
-                //"How to create a Spring Boot application with spring data jpa query methods?",
-                //"What is the difference between Webflux and Web MVC in Spring Boot?",
+                "How to create a Spring Boot application with spring data jpa query methods?",
+                "What is the difference between Webflux and Web MVC in Spring Boot?",
                 "How to use docker compose with Spring Boot?"
         );
 
